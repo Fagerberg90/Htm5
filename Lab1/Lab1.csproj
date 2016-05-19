@@ -95,7 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Bilder\126294.png" />
-    <Content Include="Bilder\28001[1].jpg" />
+    <Content Include="Bilder\28001.jpg" />
     <Content Include="Bilder\rioKalle.jpg" />
     <Content Include="ljud\NeonHeart-EndlessGrace.mp3" />
     <Content Include="packages.config" />
