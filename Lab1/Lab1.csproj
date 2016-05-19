@@ -94,6 +94,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bilder\126294.png" />
+    <Content Include="Bilder\28001[1].jpg" />
+    <Content Include="Bilder\rioKalle.jpg" />
+    <Content Include="ljud\NeonHeart-EndlessGrace.mp3" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -109,11 +113,17 @@
     <Content Include="index.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="sidor\beskrivning.html" />
+    <Content Include="sidor\ljud.html" />
+    <Content Include="sidor\ljuddirektpåhemsidan.html" />
+    <Content Include="sidor\video.html" />
+    <Content Include="video\Maldive3.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
