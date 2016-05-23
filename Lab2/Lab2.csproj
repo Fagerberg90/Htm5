@@ -94,7 +94,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bilder\flagga.jpg" />
+    <Content Include="bilder\fotboll.jpg" />
+    <Content Include="bilder\fotbollsskor.jpg" />
     <Content Include="bilder\hifkeps.png" />
+    <Content Include="bilder\matchtröja.png" />
+    <Content Include="bilder\T-shirt.jpg" />
     <Content Include="Index.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
