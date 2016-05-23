@@ -100,6 +100,7 @@
     <Content Include="bilder\hifkeps.png" />
     <Content Include="bilder\matchtröja.png" />
     <Content Include="bilder\T-shirt.jpg" />
+    <Content Include="bilder\teamsportia.png" />
     <Content Include="Index.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
