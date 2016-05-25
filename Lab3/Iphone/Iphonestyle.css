@@ -3,12 +3,12 @@
 #skalet{
     background-color: white;
     border: 3px solid black;
-    width: 400px;
+    width: 440px;
     height: 800px;
     border-radius: 10%;
 }
 #kamera{
-    border:1px solid #808080;
+    border:1px solid #524c4c;
     width:20px;
     height:20px;
     border-radius:90%;
@@ -19,7 +19,7 @@
 }
 #diod{
     border:3px solid #3f3f3f;
-    width: 6px;
+    width: 5px;
     height:5px;
     border-radius:90%;
     position:relative;
@@ -38,7 +38,7 @@
     background-color: #3f3f3f;
 }
 #skärm{
-    background-color:white;
+    background-color:grey;
     border:1px solid black;
     width: 388px;
     height:620px;
@@ -50,39 +50,39 @@
 #knapp{
     background-color:white;
     border:2px solid black;
-    width:30px;
-    height:50px;
+    width:39px;
+    height:40px;
     border-radius:80%;
     position:relative;
-    left:50%;
-    top:12%;
+    left:44%;
+    top:11%;
 }
 #ringeniknappen{
         background-color:white;
-    border:2px solid black;
-    width:10px;
-    height:10px;
-    border-radius:300%;
+    border:5px solid black;
+    width:12px;
+    height:12px;
+    border-radius:30%;
     position:relative;
     left:20%;
-    top:20%;
+    top:22%;
 }
-#knappv{
+#knapparv{
     position:relative;
     top:10px;
-    right:76px;
+    right:65px;
 
 }
-#knappv div {
+#knapparv div {
     background-color: white;
     border:3px solid #808080;
     width: 70px;
     height:60px;
     border-radius:20%;
     position: relative;
-    left: 30%;
-    margin-bottom:15px;
-    margin-right: 6px;
+    left: 20%;
+    margin-bottom:20px;
+    margin-right: 8px;
     top: 18px;
 }
 #knapparmv div{
@@ -93,15 +93,15 @@
     border-radius:20%;
     position:relative;
     left:15%;
-    margin-bottom:15px;
-    margin-right:10px;
-    top:190px;
+    margin-bottom:20px;
+    margin-right:8px;
+    top:200px;
 
 }
 #knapparmv {
     position:relative;
-    bottom:670px;
-    left:40px;
+    bottom:688px;
+    left:50px;
 
 }
 #knapparmh div{
@@ -111,7 +111,7 @@
     height:60px;
     border-radius:20%;
     position: center;
-    left:30%;
+    left:40%;
     margin-bottom:20px;
     margin-right:8px;
     top:10px;
@@ -119,8 +119,8 @@
 }
 #knapparmh {
     position:relative;
-    bottom:970px;
-    left:200px;
+    bottom:1003px;
+    left:205px;
 
 }
 #knapparh div{
@@ -130,7 +130,7 @@
     height:60px;
     border-radius:20%;
     position: center;
-    left:30%;
+    left:40%;
     margin-bottom:20px;
     margin-right:8px;
     top:10px;
@@ -138,20 +138,32 @@
 }
 #knapparh {
     position:relative;
-    bottom:1400px;
-    left:280px;
+    bottom:1519px;
+    left:300px;
 
 }
 #knapparln div{
     border: 3px solid #808080;
     width:70px;
     height:60px;
-    border-radius:30%;
+    border-radius:20%;
     position:relative;
-    left:40px;
-    bottom:130px;
+    left:38px;
+    bottom:155px;
     margin-bottom: 7px;
-    margin-right:18px;
+    margin-right:21px;
     float:left;
+}
+#appln1{
+    background-color:green;
+}
+#appln2{
+    background-color:yellow;
+}
+#appln3{
+    background-color:blue;
+}
+#appln4{
+    background-color:red;
 }
 
