@@ -47,6 +47,26 @@
     left:5%;
     top: 9%;
 }
+#knapp{
+    background-color:white;
+    border:2px solid black;
+    width:30px;
+    height:50px;
+    border-radius:80%;
+    position:relative;
+    left:50%;
+    top:12%;
+}
+#ringeniknappen{
+        background-color:white;
+    border:2px solid black;
+    width:10px;
+    height:10px;
+    border-radius:300%;
+    position:relative;
+    left:20%;
+    top:20%;
+}
 #knappv{
     position:relative;
     top:10px;
@@ -83,5 +103,55 @@
     bottom:670px;
     left:40px;
 
+}
+#knapparmh div{
+    background-color: white;
+    border: 3px solid #808080;
+    width:70px;
+    height:60px;
+    border-radius:20%;
+    position: center;
+    left:30%;
+    margin-bottom:20px;
+    margin-right:8px;
+    top:10px;
+
+}
+#knapparmh {
+    position:relative;
+    bottom:970px;
+    left:200px;
+
+}
+#knapparh div{
+    background-color: white;
+    border: 3px solid #808080;
+    width:70px;
+    height:60px;
+    border-radius:20%;
+    position: center;
+    left:30%;
+    margin-bottom:20px;
+    margin-right:8px;
+    top:10px;
+
+}
+#knapparh {
+    position:relative;
+    bottom:1400px;
+    left:280px;
+
+}
+#knapparln div{
+    border: 3px solid #808080;
+    width:70px;
+    height:60px;
+    border-radius:30%;
+    position:relative;
+    left:40px;
+    bottom:130px;
+    margin-bottom: 7px;
+    margin-right:18px;
+    float:left;
 }
 
