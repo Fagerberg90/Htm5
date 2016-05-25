@@ -1,0 +1,72 @@
+﻿body {
+    background-color: lightblue;
+}
+
+@media (max-width: 641px) {
+    body {
+        background-color: purple;
+    }
+
+    #mobile {
+        text-align: center;
+        display: inherit;
+    }
+
+    #screen {
+        display: none;
+    }
+
+    #tablet {
+        display: none;
+    }
+
+    #printscreen {
+        display: none;
+    }
+}
+
+@media (min-width: 642px) and (max-width: 800px) {
+
+    body {
+        background-color: aqua;
+    }
+
+    #screen {
+        display: none;
+    }
+
+    #mobile {
+        display: none;
+    }
+
+    #tablet {
+        text-align: center;
+    }
+
+    #printscreen {
+        display: none;
+    }
+}
+
+@media screen and (min-width:800px) {
+
+    body {
+        background-color: lawngreen;
+    }
+
+    #screen {
+        text-align: center;
+        display: inherit;
+    }
+
+    #mobile {
+        display: none;
+    }
+
+    #tablet {
+        display: none;
+    }
+
+    #printscreen {
+        display: none;
+    }

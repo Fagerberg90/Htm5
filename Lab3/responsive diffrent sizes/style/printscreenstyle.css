@@ -1,0 +1,21 @@
+﻿body {
+}
+
+@media print {
+    #screen {
+        display: none;
+    }
+
+    #mobile {
+        display: none;
+    }
+
+    #tablet {
+        display: none;
+    }
+
+    #printscreen {
+        text-align: center;
+        display: inherit;
+    }
+}
