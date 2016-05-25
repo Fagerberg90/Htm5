@@ -1,2 +1,9 @@
 ﻿body {
+    background-color: lightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 10px;
+}
+
+ul {
+    list-style-type: none;
 }

@@ -110,6 +110,9 @@
     <Content Include="Dingeling postit\styledingelingpostit.css" />
     <Content Include="Iphone\index.html" />
     <Content Include="Iphone\Iphonestyle.css" />
+    <Content Include="responsive site\bilder\876AQ4II.jpg" />
+    <Content Include="responsive site\bilder\8873474031646.jpg" />
+    <Content Include="responsive site\bilder\Skärmavbild-2012-08-24-kl.-22.33.47.jpg" />
     <Content Include="responsive site\index.html" />
     <Content Include="responsive site\sidor\sida1.html" />
     <Content Include="responsive site\sidor\sida2.html" />
@@ -124,7 +127,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Iphone\NewFolder1\" />
-    <Folder Include="responsive site\bilder\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
