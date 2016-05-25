@@ -106,6 +106,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Dingeling postit\index.html" />
+    <Content Include="Dingeling postit\styledingelingpostit.css" />
     <Content Include="Iphone\index.html" />
     <Content Include="Iphone\Iphonestyle.css" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
@@ -116,7 +118,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Dingeling postit\" />
     <Folder Include="Iphone\NewFolder1\" />
     <Folder Include="responsive site\" />
     <Folder Include="style responsive\" />
