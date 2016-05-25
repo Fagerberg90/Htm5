@@ -1,0 +1,87 @@
+﻿body {
+}
+#skalet{
+    background-color: white;
+    border: 3px solid black;
+    width: 400px;
+    height: 800px;
+    border-radius: 10%;
+}
+#kamera{
+    border:1px solid #808080;
+    width:20px;
+    height:20px;
+    border-radius:90%;
+    position:relative;
+    left:47%;
+    top:5%;
+    background-color:black;
+}
+#diod{
+    border:3px solid #3f3f3f;
+    width: 6px;
+    height:5px;
+    border-radius:90%;
+    position:relative;
+    left:37%;
+    top:7%;
+    background-color: #3f3f3f;
+}
+#högtalare{
+    border: 1px solid #3f3f3f;
+    width: 55px;
+    height:5px;
+    position:relative;
+    left:43%;
+    top:6%;
+    border-radius:15%;
+    background-color: #3f3f3f;
+}
+#skärm{
+    background-color:white;
+    border:1px solid black;
+    width: 388px;
+    height:620px;
+    border-radius:6%;
+    position:relative;
+    left:5%;
+    top: 9%;
+}
+#knappv{
+    position:relative;
+    top:10px;
+    right:76px;
+
+}
+#knappv div {
+    background-color: white;
+    border:3px solid #808080;
+    width: 70px;
+    height:60px;
+    border-radius:20%;
+    position: relative;
+    left: 30%;
+    margin-bottom:15px;
+    margin-right: 6px;
+    top: 18px;
+}
+#knapparmv div{
+    background-color: white;
+    border: 3px solid #808080;
+    width:70px;
+    height:60px;
+    border-radius:20%;
+    position:relative;
+    left:15%;
+    margin-bottom:15px;
+    margin-right:10px;
+    top:190px;
+
+}
+#knapparmv {
+    position:relative;
+    bottom:670px;
+    left:40px;
+
+}
+
