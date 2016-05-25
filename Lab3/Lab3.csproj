@@ -110,6 +110,11 @@
     <Content Include="Dingeling postit\styledingelingpostit.css" />
     <Content Include="Iphone\index.html" />
     <Content Include="Iphone\Iphonestyle.css" />
+    <Content Include="responsive site\index.html" />
+    <Content Include="responsive site\sidor\sida1.html" />
+    <Content Include="responsive site\sidor\sida2.html" />
+    <Content Include="responsive site\sidor\sida3.html" />
+    <Content Include="responsive site\style\StyleSheet1.css" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />
@@ -119,8 +124,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Iphone\NewFolder1\" />
-    <Folder Include="responsive site\" />
-    <Folder Include="style responsive\" />
+    <Folder Include="responsive site\bilder\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
