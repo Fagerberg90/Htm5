@@ -113,8 +113,8 @@
     <Content Include="responsive diffrent sizes\index.html" />
     <Content Include="responsive diffrent sizes\style\printscreenstyle.css" />
     <Content Include="responsive diffrent sizes\style\stylesizes.css" />
-    <Content Include="responsive site style\bilder\876AQ4II.jpg" />
     <Content Include="responsive site style\bilder\8873474031646.jpg" />
+    <Content Include="responsive site style\bilder\images.jpg" />
     <Content Include="responsive site style\bilder\Skärmavbild-2012-08-24-kl.-22.33.47.jpg" />
     <Content Include="responsive site style\index.html" />
     <Content Include="responsive site style\sidor\sida1.html" />
