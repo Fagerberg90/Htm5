@@ -1,33 +1,47 @@
 ﻿body {
-  background-color:#4cff00;
+    background-color: #4cff00;
+    background-image: url('../Image/kuramathi-island.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+h1, h2, h3 h4{
+    font-family:'Baskerville Old Face';
+    font-weight:300;
 }
 .top{
-    background-color:blue;
+        background-image: url('../Image/^174553494A0AF8A6E0BB3CB985CB9FB3FFB0FBC5D0A7E84F40^pimgpsh_fullsize_distr.jpg');
+        height:200px;
 }
 
 .top .navbar-brand{
-    background-color:darkseagreen;
+    
     height:40px;
+    line-height:50px;
     text-align:center;
+    padding:0 10px;
+    text-decoration:none;
+
 }
 .top .container{
-    padding:1px;
+    padding:0px;
 }
 
-.banner{
-    background-color:rgba(40, 209, 235, 0.88)
+.banner {
+}
+.icon img{
+    width:150px;
+    height:100px;    
 }
 
 .banner .container {
     background-color:rgba(0, 255, 255, 0.16);
-    height:400px;
+    min-height:200px;
     padding: 40px 30px 30px 40px;
 }
 
 .middle{
-    background-color: aqua;
-    width:500px;
-    height:800px;
+    
+  
 }
 
 .middle .container{
@@ -38,6 +52,11 @@
 .navbar-nav li a{
     color:deepskyblue;
     font-family:'Agency FB';
+    background-color:antiquewhite;
+    color:black;
+    font-size:15px;
+    margin:10px;
+    opacity:0.5;
 }
 .navbar-nav li a:hover{
     background-color:deeppink;
@@ -45,12 +64,23 @@
 
 
 .bottom{
-    background-color:darkgoldenrod;
+    
 }
+
 
 .bottom .container{
     background-color:rgba(40, 209, 235, 0.48);
     min-height: 160px;
+}
+.bottom .container p{
+    color:black
+}
+.navbar-toggle{
+    color:antiquewhite;
+    font-size:32px;
+    margin:3px;
+    padding:2px 5px;
+    line-height:32px;
 }
 
 .navbar-toggle:hover{
@@ -59,6 +89,7 @@
 
 .navbar-nav{
     margin:0;
+   
 }
 .content p{
     line-height:30px;
@@ -67,4 +98,7 @@
 
 .bookhotel{
     text-align:center;
+}
+
+.container contra {
 }
