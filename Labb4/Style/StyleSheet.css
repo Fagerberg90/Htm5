@@ -5,6 +5,15 @@
     background-color:blue;
 }
 
+.top .navbar-brand{
+    background-color:darkseagreen;
+    height:40px;
+    text-align:center;
+}
+.top .container{
+    padding:1px;
+}
+
 .banner{
     background-color:rgba(40, 209, 235, 0.88)
 }
@@ -12,6 +21,7 @@
 .banner .container {
     background-color:rgba(0, 255, 255, 0.16);
     height:400px;
+    padding: 40px 30px 30px 40px;
 }
 
 .middle{
@@ -22,13 +32,18 @@
 
 .middle .container{
     background-color:darkcyan;
+    min-height:320px;
+    padding-bottom:20px;
 }
-.container 
-{
-    background-color:brown;
-    width:200px;
-    height:400px;
+.navbar-nav li a{
+    color:deepskyblue;
+    font-family:'Agency FB';
 }
+.navbar-nav li a:hover{
+    background-color:deeppink;
+}
+
+
 .bottom{
     background-color:darkgoldenrod;
 }
@@ -36,4 +51,20 @@
 .bottom .container{
     background-color:rgba(40, 209, 235, 0.48);
     min-height: 160px;
+}
+
+.navbar-toggle:hover{
+    background-color:gold;
+}
+
+.navbar-nav{
+    margin:0;
+}
+.content p{
+    line-height:30px;
+    font-size:18px;
+}
+
+.bookhotel{
+    text-align:center;
 }
