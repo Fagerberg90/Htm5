@@ -1,10 +1,111 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="sv-se">
 <head>
-    <title></title>
-	<meta charset="utf-8" />
+    <title>Maldives</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="maldives" />
+    <meta name="keywords" content="island, kuramathi, asia " />
+    <meta name="author" content="Emil Fagerberg" />
+
+    <script src="../scripts/jquery-1.9.1.js"></script>
+    <script src="../scripts/bootstrap.js"></script>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+
+    <link href="../Style/Contactstyle.css" rel="stylesheet" type="text/css" />
+    <link href="../Style/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="../Style/flipcardstyle.css" rel="stylesheet" type="text/css" />
+
 </head>
 <body>
+    <header class="top" role="menubar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand pull-left icon">
+                <img src="../Image/name.PNG" />
+            </a>
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="glyphicon glyphicon-align-justify"></span>
+            </button>
+            <nav class="navbar-collapse collapse" role="navigation">
+                <ul class="navbar-nav nav">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="tickets.html">tickets</a> </li>
+                    <li><a href="videos.html">videos</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container boxinfo">
+        <p class="cp">Give us feedback</p>
+        <div class="form-group">
+            <label for="firstname">Firstname:</label>
+            <input type="text" class="form-control" id="firstname" placeholder="Emil..." />
+        </div>
+        <div class="form-group">
+            <label for="lastname">Lastname:</label>
+            <input type="text" class="form-control" id="lastname" placeholder="Fagerberg..." />
+        </div>
+        <div class="form-group">
+            <label for="email">Email adress:</label>
+            <input type="email" class="form-control" id="email" placeholder=".....@hotmail.com" />
+        </div>
+        <div class="form-group">
+            <label for="phonenumber">Phonenumber:</label>
+            <input type="tel" class="form-control" id="phonenumber" placeholder="076......." />
+        </div>
+        <div class="form-group">
+            <label for="text">Select opinion:</label>
+            <select class="form-control" id="text">
+                <option>Very good</option>
+                <option>Good</option>
+                <option>Bad</option>
+            </select>
+        </div>
+        
+        <button type="submit" class="btn btn-default">Send</button>
+    </div>
+        
+
+    <div class="container bottomcont">
+        <div class="row">
+            <div class="col-md-4 c1">
+                <h3>Adress</h3>
+                <p>
+                    North Ari Atoll Maldives,
+                    Phone:(960) 666 2222
+                    Fax: (960) 666 2200
+                    E-mail:
+                    reservations.wmaldives@whotels.com
+                </p>
+            </div>
+            <div class="col-md-4 c1">
+                <h3>Where to stay</h3>
+                <p>
+                    Resorts <br />
+                    City Hotels <br />
+                    Guest Houses
+                </p>
+            </div>
+
+
+            <div class="col-md-4 c1">
+                <h3>Creater</h3>
+                <address>
+                    Maldives Company        <br />
+                    Phone: +960 664 4487 <br />
+                    Email: support@eriyadu.com
+                </address>
+            </div>
+        </div>
+    </div>
+    <!--<audio autoplay>
+               <source src="../Audio/ocean-wave-2.mp3" type="audio/mpeg" />
+           </audio>-->
+
+    <small>Copyright &copy; 2016</small>
 
 </body>
 </html>

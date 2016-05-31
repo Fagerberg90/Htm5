@@ -1,0 +1,34 @@
+﻿body {
+    background-color: floralwhite;
+    background-image: url('../Image/kuramathi-island.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: floralwhite;
+    text-shadow: 1px 0px 20px #ff6a00;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+h1 {
+    font-family: 'Baskerville Old Face';
+    font-weight: 300;
+    color: floralwhite;
+    margin-left: 110px;
+    font-size: 50px;
+    text-shadow: 5px 10px 20px #00ffff;
+}
+
+.cp {
+    color: floralwhite;
+    font-style: italic;
+    ;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: larger;
+}
+
+.nav li a:hover {
+    text-shadow: 1px 0px 20px #ff6a00;
+}

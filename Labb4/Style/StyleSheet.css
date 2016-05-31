@@ -1,138 +1,160 @@
 ﻿body {
-    background-color: #4cff00;
+    background-color: floralwhite;
     background-image: url('../Image/kuramathi-island.jpg');
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
 }
-h3, h4{
-    font-family:'Baskerville Old Face';
-    font-weight:300;
-    color:floralwhite;
-    margin-left:110px;
-      text-shadow:5px 0px 20px #00ffff;
 
-}
-h1{
-    font-family:'Baskerville Old Face';
-    font-weight:300;
-    color:floralwhite;
-    margin-left:110px;
-    font-size:50px;
-     text-shadow:5px 10px 20px #00ffff;
-}
-h2{
-    color:white;
-    font-size:large;
-    margin-left:50px;
-     text-shadow:5px 0px 20px #00ffff;
-
-}
-.top{
-        background-image: url('../Image/^174553494A0AF8A6E0BB3CB985CB9FB3FFB0FBC5D0A7E84F40^pimgpsh_fullsize_distr.jpg');
-        height:200px;
+h4 {
+    font-family: 'Baskerville Old Face';
+    font-weight: 300;
+    color: floralwhite;
+    margin-left: 110px;
+    text-shadow: 5px 0px 20px #00ffff;
 }
 
-.top .navbar-brand{
-    
-    height:40px;
-    line-height:50px;
-    text-align:center;
-    padding:0 10px;
-    text-decoration:none;
-
-}
-.top .container{
-    padding:0px;
+h1 {
+    font-family: 'Baskerville Old Face';
+    font-weight: 300;
+    color: floralwhite;
+    margin-left: 110px;
+    font-size: 50px;
+    text-shadow: 5px 10px 20px #00ffff;
 }
 
-.icon img{
-    width:150px;
-    height:100px;    
+h2 {
+    color: floralwhite;
+    font-size: large;
+    margin-left: 50px;
+    text-shadow: 5px 0px 20px #00ffff;
+}
+
+h3 {
+    color: floralwhite;
+    text-align: center;
+}
+
+.top {
+    background-image: url('../Image/^174553494A0AF8A6E0BB3CB985CB9FB3FFB0FBC5D0A7E84F40^pimgpsh_fullsize_distr.jpg');
+    height: 200px;
+}
+
+    .top .navbar-brand {
+        height: 40px;
+        line-height: 50px;
+        text-align: center;
+        padding: 0 10px;
+        text-decoration: none;
+    }
+
+    .top .container {
+        padding: 0px;
+    }
+
+.icon img {
+    width: 150px;
+    height: 100px;
 }
 
 .banner .container {
-    background-color:rgba(0, 255, 255, 0.16);
-    min-height:200px;
+    background-color: rgba(0, 255, 255, 0.16);
+    min-height: 200px;
     padding: 40px 30px 30px 40px;
 }
 
 
-.middle .container{
-    background-color:darkcyan;
-    min-height:320px;
-    padding-bottom:20px;
+.middle .container {
+    background-color: darkcyan;
+    min-height: 320px;
+    padding-bottom: 20px;
 }
-.navbar-nav li a{
-    color:deepskyblue;
+
+.navbar-nav li a {
+    color: deepskyblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:rgba(89, 205, 246, 0.63);
-    color:white;
-    font-size:20px;
-    margin:10px;
-     text-shadow:5px 0px 20px #00ffff;
-    
-}
-.navbar-nav li a:hover{
-    background-color:#1695f5;
-     text-shadow:5px 0px 20px #00ffff;
-   
+    background-color: rgba(89, 205, 246, 0.63);
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    text-shadow: 5px 0px 20px #00ffff;
 }
 
+    .navbar-nav li a:hover {
+        background-color: #1695f5;
+        text-shadow: 5px 0px 20px #00ffff;
+    }
 
-.bottom .container{
-    background-color:rgba(40, 209, 235, 0.48);
-    min-height: 40px;
 
-}
-.bottom .container p{
-    color:black
 
-}
-.navbar-toggle{
-    color:antiquewhite;
-    font-size:32px;
-    margin:3px;
-    padding:2px 5px;
-    line-height:32px;
-     text-shadow:5px 0px 20px #00ffff;
+
+.navbar-toggle {
+    color: antiquewhite;
+    font-size: 32px;
+    margin: 3px;
+    padding: 2px 5px;
+    line-height: 32px;
+    text-shadow: 5px 0px 20px #00ffff;
 }
 
-.navbar-toggle:hover{
-    background-color:gold;
+    .navbar-toggle:hover {
+        background-color: gold;
+    }
+
+.navbar-nav {
+    margin: 0;
 }
 
-.navbar-nav{
-    margin:0;
-   
-}
-.content p{
-    line-height:30px;
-    font-size:18px;
+.content p {
+    line-height: 30px;
+    font-size: 18px;
 }
 
-.bookhotel{
+.bookhotel {
     text-align: match-parent;
 }
 
 
-img{
-    border:0;
-    width:280px;
-    height:200px;
-    margin-right:120px;
-}
-ul{
-   list-style-type: none;
- 
+img {
+    border: 0;
+    width: 280px;
+    height: 200px;
+    margin-right: 120px;
 }
 
-.tab-content{
-    margin-right:60px;
-    color:white;
-     text-shadow:5px 0px 20px #00ffff;
+ul {
+    list-style-type: none;
 }
-.btn-success{
-    color:floralwhite;
-   margin-right:145px;
- 
+
+.tab-content {
+    margin-right: 60px;
+    color: white;
+    text-shadow: 5px 0px 20px #00ffff;
 }
+
+.btn-success {
+    color: floralwhite;
+    margin-right: 145px;
+}
+
+.c1 div {
+    margin-right: -15px;
+    margin-left: 29px;
+}
+
+.bottomcont .c1 {
+   text-align:center;
+   color:floralwhite;
+   border:solid;
+   text-shadow: 5px 0px 20px #00ffff;
+
+    
+}
+small{
+    color:rgba(242, 254, 255, 0.54)
+}
+p{
+   
+padding:20px;
+}
+    
+
