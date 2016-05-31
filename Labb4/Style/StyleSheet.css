@@ -1,5 +1,39 @@
 ﻿body {
-    background-image: url('../Image/kuramathi-island.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
+  background-color:#4cff00;
+}
+.top{
+    background-color:blue;
+}
+
+.banner{
+    background-color:rgba(40, 209, 235, 0.88)
+}
+
+.banner .container {
+    background-color:rgba(0, 255, 255, 0.16);
+    height:400px;
+}
+
+.middle{
+    background-color: aqua;
+    width:500px;
+    height:800px;
+}
+
+.middle .container{
+    background-color:darkcyan;
+}
+.container 
+{
+    background-color:brown;
+    width:200px;
+    height:400px;
+}
+.bottom{
+    background-color:darkgoldenrod;
+}
+
+.bottom .container{
+    background-color:rgba(40, 209, 235, 0.48);
+    min-height: 160px;
 }
