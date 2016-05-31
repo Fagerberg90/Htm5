@@ -100,8 +100,14 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Image\bungalowinwater.PNG" />
+    <Content Include="Image\divingturtle.PNG" />
     <Content Include="Image\kuramathi-island.jpg" />
     <Content Include="Image\name.PNG" />
+    <Content Include="Image\seaplane.jpg" />
+    <Content Include="Image\spa.PNG" />
+    <Content Include="Image\Water-Sports-Maldives.jpg" />
+    <Content Include="Image\watercanon.jpg" />
     <Content Include="Image\^174553494A0AF8A6E0BB3CB985CB9FB3FFB0FBC5D0A7E84F40^pimgpsh_fullsize_distr.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">

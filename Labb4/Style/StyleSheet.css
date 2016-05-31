@@ -4,9 +4,28 @@
     background-repeat:no-repeat;
     background-size: cover;
 }
-h1, h2, h3 h4{
+h3, h4{
     font-family:'Baskerville Old Face';
     font-weight:300;
+    color:floralwhite;
+    margin-left:110px;
+      text-shadow:5px 0px 20px #00ffff;
+
+}
+h1{
+    font-family:'Baskerville Old Face';
+    font-weight:300;
+    color:floralwhite;
+    margin-left:110px;
+    font-size:50px;
+     text-shadow:5px 10px 20px #00ffff;
+}
+h2{
+    color:white;
+    font-size:large;
+    margin-left:50px;
+     text-shadow:5px 0px 20px #00ffff;
+
 }
 .top{
         background-image: url('../Image/^174553494A0AF8A6E0BB3CB985CB9FB3FFB0FBC5D0A7E84F40^pimgpsh_fullsize_distr.jpg');
@@ -26,8 +45,6 @@ h1, h2, h3 h4{
     padding:0px;
 }
 
-.banner {
-}
 .icon img{
     width:150px;
     height:100px;    
@@ -39,10 +56,6 @@ h1, h2, h3 h4{
     padding: 40px 30px 30px 40px;
 }
 
-.middle{
-    
-  
-}
 
 .middle .container{
     background-color:darkcyan;
@@ -51,29 +64,29 @@ h1, h2, h3 h4{
 }
 .navbar-nav li a{
     color:deepskyblue;
-    font-family:'Agency FB';
-    background-color:antiquewhite;
-    color:black;
-    font-size:15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgba(89, 205, 246, 0.63);
+    color:white;
+    font-size:20px;
     margin:10px;
-    opacity:0.5;
+     text-shadow:5px 0px 20px #00ffff;
+    
 }
 .navbar-nav li a:hover{
-    background-color:deeppink;
-}
-
-
-.bottom{
-    
+    background-color:#1695f5;
+     text-shadow:5px 0px 20px #00ffff;
+   
 }
 
 
 .bottom .container{
     background-color:rgba(40, 209, 235, 0.48);
-    min-height: 160px;
+    min-height: 40px;
+
 }
 .bottom .container p{
     color:black
+
 }
 .navbar-toggle{
     color:antiquewhite;
@@ -81,6 +94,7 @@ h1, h2, h3 h4{
     margin:3px;
     padding:2px 5px;
     line-height:32px;
+     text-shadow:5px 0px 20px #00ffff;
 }
 
 .navbar-toggle:hover{
@@ -97,8 +111,28 @@ h1, h2, h3 h4{
 }
 
 .bookhotel{
-    text-align:center;
+    text-align: match-parent;
 }
 
-.container contra {
+
+img{
+    border:0;
+    width:280px;
+    height:200px;
+    margin-right:120px;
+}
+ul{
+   list-style-type: none;
+ 
+}
+
+.tab-content{
+    margin-right:60px;
+    color:white;
+     text-shadow:5px 0px 20px #00ffff;
+}
+.btn-success{
+    color:floralwhite;
+   margin-right:145px;
+ 
 }

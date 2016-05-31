@@ -6,25 +6,31 @@
     <meta name="description" content="maldives" />
     <meta name="keywords" content="island, kuramathi, asia " />
     <meta name="author" content="Emil Fagerberg" />
-    <link href="../Style/StyleSheet.css" rel="stylesheet" type="text/css" />
+
     <script src="../scripts/jquery-1.9.1.js"></script>
     <script src="../scripts/bootstrap.js"></script>
     <link href="../Content/bootstrap.css" rel="stylesheet" />
+
+    <link href="../Style/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="../Style/flipcardstyle.css" rel="stylesheet" type="text/css" />
+    
 </head>
 <body>
     <header class="top" role="menubar">
         <div class="container">
             <a href="index.html" class="navbar-brand pull-left icon">
-<img src="../Image/name.PNG" /></a>
+                <img src="../Image/name.PNG" />
+            </a>
             <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="glyphicon glyphicon-align-justify"></span>
             </button>
             <nav class="navbar-collapse collapse" role="navigation">
                 <ul class="navbar-nav nav">
-                    <li><a href="about.html">about.html</a></li>
-                    <li><a href="contact.html">contact.html</a></li>
-                    <li><a href="tickets.html">tickets.html</a> </li>
-                    <li><a href="videos.html">videos.html</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="tickets.html">tickets</a> </li>
+                    <li><a href="videos.html">videos</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
                 </ul>
             </nav>
         </div>
@@ -32,10 +38,51 @@
     <div class="banner">
         <div class="container">
             <h1>Welcome to Maldives most popular place</h1>
-            <p>
-                we have all the information you need to visit or island.
-            </p>
-        </div>
+            <div class="row ett">
+                <div class="col-md-3">
+                    <div class="album_container">
+                        <div class="picture">
+                            <div class="front">
+                                <img class="img-responsive" src="../Image/spa.PNG" />
+                            </div>
+                            <div class="back">
+                                <p>
+                                    we have all the information you need to visit or island.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="album_container">
+                        <div class="picture">
+                            <div class="front">
+                                <img class="img-responsive"img src="../Image/bungalowinwater.PNG" />
+                            </div>
+                            <div class="back">
+                                <p>
+                                    Vi benämner Wingtsun kung fu som en kampkonst och inte som kampsport. Detta innebär att vi aldrig tävlar i WT. Wingtsun är ett självförsvar baserat på koncept, principer och strategier allt för att kunna försvara oss mot en starkare motståndare.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="album_container">
+                        <div class="picture">
+                            <div class="front">
+                                <img class="img-responsive" img src="../Image/seaplane.jpg" />
+                            </div>
+                            <div class="back">
+                                <p>
+                                    Vi benämner Wingtsun kung fu som en kampkonst och inte som kampsport. Detta innebär att vi aldrig tävlar i WT. Wingtsun är ett självförsvar baserat på koncept, principer och strategier allt för att kunna försvara oss mot en starkare motståndare.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  </div>
+    </div>
     </div>
     <div class="middle">
         <div class="row ett">
@@ -44,28 +91,20 @@
             <div class="col-md-8 tab-content">
                 <div class="bookhotel">
                     <p>Book a beautiful hotel on the island</p>
-                    <a href="http://www.booking.com/hotel/mv/kuramathi-island-resort.sv.html?aid=357007;label=gog235jc-hotel-XX-mv-kuramathiNislandNresort-unspec-se-com-L%3Asv-O%3AwindowsSnt-B%3Aedge-N%3AXX-S%3Abo-U%3AXX;sid=88a1b654b50f69e0e83546011175776f;dcid=12;dist=0&sb_price_type=total&type=total&" class="btn btn-success">Book</a>
+                    <a href="http://www.booking.com/hotel/mv/kuramathi-island-resort.sv.html?aid=357007;label=gog235jc-hotel-XX-mv-kuramathiNislandNresort-unspec-se-com-L%3Asv-O%3AwindowsSnt-B%3Aedge-N%3AXX-S%3Abo-U%3AXX;sid=88a1b654b50f69e0e83546011175776f;dcid=12;dist=0&sb_price_type=total&type=total&" class="btn btn-success">Book hotel</a>
                 </div>
             </div>
             <div class="col-md-2 tab-content">
-               
-                <h2>Top 3 activities</h2>
+                 <h2>Top 3 activities</h2>
                 <ul class="nav1">
-                    <li>bilder</li>
-                    <li>bilder2</li>
-                    <li>bilder3</li>
+                    <li><img src="../Image/divingturtle.PNG" /></li>
+                    <li><img src="../Image/Water-Sports-Maldives.jpg" /></li>
+                    <li><img src="../Image/watercanon.jpg" /></li>
                 </ul>
-
-
             </div>
         </div>
-
     </div>
-    
-
-
-
-    <div class="bottom">
+     <div class="bottom">
         <div class="container">
             <div class="col-md-4">
                 <h3>Adress</h3>
@@ -82,17 +121,17 @@
                 <p>
                     Resorts <br />
                     City Hotels <br />
-                    Guest Houses </br>
+                    Guest Houses
                 </p>
             </div>
             <div class="col-md-4">
                 <h3>Events</h3>
                 <p>Buy tickets to the events</p>
             </div>
-            <audio autoplay>
+            <!--<audio autoplay>
                 <source src="../Audio/ocean-wave-2.mp3" type="audio/mpeg" />
-            </audio>
-            <footer class="container-fluid">
+            </audio>-->
+            <footer class="container-fluid footer1">
                 <div class="log">Creater:</div>
                 <address>
                     North Male Atoll <br />
