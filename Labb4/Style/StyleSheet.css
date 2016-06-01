@@ -37,6 +37,7 @@ h3 {
 .top {
     background-image: url('../Image/^174553494A0AF8A6E0BB3CB985CB9FB3FFB0FBC5D0A7E84F40^pimgpsh_fullsize_distr.jpg');
     height: 200px;
+   
 }
 
     .top .navbar-brand {
@@ -45,6 +46,7 @@ h3 {
         text-align: center;
         padding: 0 10px;
         text-decoration: none;
+        
     }
 
     .top .container {
@@ -77,6 +79,7 @@ h3 {
     font-size: 20px;
     margin: 10px;
     text-shadow: 5px 0px 20px #00ffff;
+    
 }
 
     .navbar-nav li a:hover {
@@ -84,7 +87,11 @@ h3 {
         text-shadow: 5px 0px 20px #00ffff;
     }
 
-
+    .navbar-nav {
+        position:fixed;
+        z-index:9000;
+        left:575px;
+    }
 
 
 
@@ -111,9 +118,8 @@ h3 {
 }
 
 .bookhotel {
-    text-align: match-parent;
+    margin-right: -90px;
 }
-
 
 img {
     border: 0;
@@ -126,10 +132,11 @@ ul {
     list-style-type: none;
 }
 
-.tab-content {
-    margin-right: 60px;
+.centerbox {
+    margin-right: 37px;
     color: white;
     text-shadow: 5px 0px 20px #00ffff;
+    text-align: center;
 }
 
 .btn-success {
@@ -142,33 +149,40 @@ ul {
     margin-left: 29px;
 }
 
-.bottomcont .c1 {
-   text-align:center;
-   color:floralwhite;
-   border:solid;
-   text-shadow: 5px 0px 20px #00ffff;
-    
-}
-small{
-    color:rgba(242, 254, 255, 0.54)
-}
-p{
-   
-padding:20px;
+small {
+    color: rgba(242, 254, 255, 0.54);
 }
 
-@media screen and (min-width: 1560px){
-    .aside1{
-         top: 25%;
+p {
+    padding: 20px;
+}
+
+@media screen and (min-width: 1560px) {
+    .aside1 {
+        top: 25%;
         position: fixed;
     }
 }
 
+.walloftext {
+    font-size: large;
+    font-family: 'Palatino Linotype';
+    background-color: rgba(15, 171, 212, 0.3);
+    font-weight: 600;
+    border: 1px solid white;
+    letter-spacing: 2px;
+}
 
-     
-       
+.centertexthead {
+    font-size: 70px;
+    word-spacing: 5px;
+    margin-right: 100px;
+}
 
-
-
+#myfooter {
+    height: 6em;
+    background-color: rgba(15, 171, 212, 0.10);
+    text-align: center;
+    padding-top: 1em;
+}
     
-
