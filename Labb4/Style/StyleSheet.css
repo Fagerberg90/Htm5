@@ -87,6 +87,7 @@ h3 {
 
 
 
+
 .navbar-toggle {
     color: antiquewhite;
     font-size: 32px;
@@ -146,7 +147,6 @@ ul {
    color:floralwhite;
    border:solid;
    text-shadow: 5px 0px 20px #00ffff;
-
     
 }
 small{
@@ -156,5 +156,19 @@ p{
    
 padding:20px;
 }
+
+@media screen and (min-width: 1560px){
+    .aside1{
+         top: 25%;
+        position: fixed;
+    }
+}
+
+
+     
+       
+
+
+
     
 
