@@ -104,6 +104,10 @@
     <Content Include="Image\divingturtle.PNG" />
     <Content Include="Image\Galleryimage\gallery1.jpg" />
     <Content Include="Image\Galleryimage\gallery10.jpg" />
+    <Content Include="Image\Galleryimage\gallery11.jpg" />
+    <Content Include="Image\Galleryimage\gallery12.jpg" />
+    <Content Include="Image\Galleryimage\gallery13.jpg" />
+    <Content Include="Image\Galleryimage\gallery15.jpg" />
     <Content Include="Image\Galleryimage\gallery2.jpg" />
     <Content Include="Image\Galleryimage\gallery3.jpg" />
     <Content Include="Image\Galleryimage\gallery4.jpg" />
