@@ -1,6 +1,16 @@
-﻿body {
-    background-color: floralwhite;
-    background-image: url('../Image/kuramathi-island.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+﻿div.tv{
+    position:relative;
+    padding-top:2%;
+    padding-bottom:67%;
+    padding-left:2%;
+}
+div.tv iframe{
+    box-sizing:border-box;
+    background:url(../Image/tvimage/oldtv2.jpg) center center no-repeat;
+    background-size:contain;
+    padding:6% 16%;
+    position:absolute;
+    top:1px;
+    width:79%;
+    height:71%;
 }
