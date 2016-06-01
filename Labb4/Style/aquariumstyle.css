@@ -1,0 +1,46 @@
+﻿.window{
+	width:950px;
+	height:500px;
+	position:relative;
+	z-index: 20;
+}
+.fishtank_wrap{
+	border:1px solid #191919;
+	width:850px;
+	height:490px;
+	margin:auto;
+	margin-top:150px;
+	position:relative;
+	overflow: hidden;
+	border-right:20px solid rgba(237, 234, 234, 0.87);
+	border-left:20px solid rgba(237, 234, 234, 0.87);
+	border-bottom:40px solid rgba(237, 234, 234, 0.87);
+ 
+}
+.water{
+	background: linear-gradient(#007fd8, #004474);
+	border-top: 90px solid rgba(59, 104, 236, 0.91));
+	border-bottom: 5px solid rgba(194, 143, 54, 0.83);
+	height: 289px;
+	position: absolute;
+	top: 50px;
+	width: 850px;
+	z-index: 160;
+}
+
+.fishtank{
+	box-shadow: 0 -10px 24px rgba(47, 48, 198, 0.93) inset, 0 -100px 134px #DCDCDC inset;
+	-moz-box-shadow: 0 -10px 24px #817F7F inset, 0 -100px 134px #DCDCDC inset;
+	-webkit-box-shadow: 0 -10px 24px #817F7F inset, 0 -100px 134px #DCDCDC inset;
+	
+}
+.ground{
+	background-color:rgba(59, 104, 236, 0.91);
+	border-bottom: 120px solid #655848;
+	height: 20px;
+	position: absolute;
+	top: 330px;
+	width: 860px;
+	z-index: 25;
+	box-shadow: 0 13px 19px #3A251D inset;
+}

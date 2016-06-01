@@ -145,6 +145,7 @@
     <Content Include="Page\videos.html" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\emoji.js" />
     <Content Include="scripts\jquery-1.9.1.js" />
     <Content Include="scripts\jquery-1.9.1.min.js" />
     <Content Include="scripts\jquery-1.9.1.min.map" />
@@ -159,6 +160,7 @@
     <Content Include="index.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="Style\aquariumstyle.css" />
     <Content Include="Style\Contactstyle.css" />
     <Content Include="Style\flipcardstyle.css" />
     <Content Include="Style\gallerystyle.css" />
