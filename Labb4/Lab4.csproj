@@ -102,6 +102,17 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Image\bungalowinwater.PNG" />
     <Content Include="Image\divingturtle.PNG" />
+    <Content Include="Image\Galleryimage\gallery1.jpg" />
+    <Content Include="Image\Galleryimage\gallery10.jpg" />
+    <Content Include="Image\Galleryimage\gallery2.jpg" />
+    <Content Include="Image\Galleryimage\gallery3.jpg" />
+    <Content Include="Image\Galleryimage\gallery4.jpg" />
+    <Content Include="Image\Galleryimage\gallery5.jpg" />
+    <Content Include="Image\Galleryimage\gallery5jpg.jpg" />
+    <Content Include="Image\Galleryimage\gallery6.jpg" />
+    <Content Include="Image\Galleryimage\gallery7.jpg" />
+    <Content Include="Image\Galleryimage\gallery8.jpg" />
+    <Content Include="Image\Galleryimage\gallery9.jpg" />
     <Content Include="Image\kuramathi-island.jpg" />
     <Content Include="Image\name.PNG" />
     <Content Include="Image\seaplane.jpg" />
@@ -124,6 +135,7 @@
     <None Include="scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Page\about.html" />
     <Content Include="Page\contact.html" />
+    <Content Include="Page\gallery.html" />
     <Content Include="Page\home.html" />
     <Content Include="Page\tickets.html" />
     <Content Include="Page\videos.html" />
@@ -145,6 +157,7 @@
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Style\Contactstyle.css" />
     <Content Include="Style\flipcardstyle.css" />
+    <Content Include="Style\gallerystyle.css" />
     <Content Include="Style\StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
