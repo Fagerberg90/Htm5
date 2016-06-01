@@ -121,6 +121,7 @@
     <Content Include="Image\name.PNG" />
     <Content Include="Image\seaplane.jpg" />
     <Content Include="Image\spa.PNG" />
+    <Content Include="Image\tvimage\oldtv2.jpg" />
     <Content Include="Image\Water-Sports-Maldives.jpg" />
     <Content Include="Image\watercanon.jpg" />
     <Content Include="Image\^174553494A0AF8A6E0BB3CB985CB9FB3FFB0FBC5D0A7E84F40^pimgpsh_fullsize_distr.jpg" />
@@ -163,6 +164,7 @@
     <Content Include="Style\flipcardstyle.css" />
     <Content Include="Style\gallerystyle.css" />
     <Content Include="Style\StyleSheet.css" />
+    <Content Include="Style\videostyle.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
