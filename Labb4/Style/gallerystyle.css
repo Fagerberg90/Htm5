@@ -4,7 +4,11 @@
 	opacity: 1;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+    border-radius:10%;
+      
 }
+
+
 .img1:hover img {
 	opacity: .5;
 }
@@ -12,7 +16,12 @@
 p{
     color: floralwhite;
     font-size:larger;
+    text-align:center
 }
 .thumbnail{
     background-color:rgba(89, 164, 192, 0.71);
+    border-radius:10%;
+}
+img{
+     border-radius:10%;
 }
