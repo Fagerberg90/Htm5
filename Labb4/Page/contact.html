@@ -7,6 +7,7 @@
     <meta name="keywords" content="island, kuramathi, asia " />
     <meta name="author" content="Emil Fagerberg" />
 
+    <script src="../scripts/emoji.js"></script>
     <script src="../scripts/jquery-1.9.1.js"></script>
     <script src="../scripts/bootstrap.js"></script>
     <link href="../Content/bootstrap.css" rel="stylesheet" />
@@ -61,23 +62,48 @@
                 <label class="selectrow">Did you like my website?</label>
                 <select class="form-control" id="selectrow">
                     <option value="happy">Happy</option>
-                <option value="good">Good</option>
-                <option value="sad">Sad</option>
+                    <option value="good">Good</option>
+                    <option value="sad">Sad</option>
                 </select>
             </div>
             <div class="happy box">
-
+                <img src="../Image/emoji/happy.png" alt="happy img" />
             </div>
             <div class="good box">
-
+                <img src="../Image/emoji/good.png" alt="good img" />
             </div>
             <div class="sad box">
-
+                <img src="../Image/emoji/sad.png" alt="sad img" />
             </div>
         </div>
 
         <button type="submit" class="btn btn-default">Send</button>
     </div>
+
+    <script>
+        $(document).ready(function () {
+            $("select").change(function () {
+                $(this).find("option:selected").each(function () {
+                    if ($(this).attr("value") == "happy") {
+                        $(".box").not(".happy").hide();
+                        $(".happy").show();
+                    }
+                    else if ($(this).attr("value") == "good") {
+                        $(".box").not(".good").hide();
+                        $(".good").show();
+                    }
+                    else if ($(this).attr("value") == "sad") {
+                        $(".box").not(".sad").hide();
+                        $(".sad").show();
+                    }
+                    else {
+                        $(".box").hide();
+                    }
+                });
+            }).change();
+        });
+    </script>
+    
     <footer>
         <div class="footer">
             <div class="container-fluid" id="myfooter">

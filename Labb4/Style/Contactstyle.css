@@ -32,3 +32,20 @@ h1 {
 .nav li a:hover {
     text-shadow: 1px 0px 20px #ff6a00;
 }
+
+.happy{
+    background: rgba(76, 255, 0, 0.53);
+}
+.good{
+    background:rgba(254, 255, 45, 0.71);
+}
+.sad{
+    background:rgba(255, 0, 0, 0.66);
+}
+
+.box{
+    padding:20px;
+    display:none;
+    margin-top:20px;
+    border:1px solid #000;
+}
