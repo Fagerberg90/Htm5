@@ -106,6 +106,9 @@
     <Content Include="Image\aquarium\topshark.png" />
     <Content Include="Image\bungalowinwater.PNG" />
     <Content Include="Image\divingturtle.PNG" />
+    <Content Include="Image\emoji\good.png" />
+    <Content Include="Image\emoji\happy.png" />
+    <Content Include="Image\emoji\sad.png" />
     <Content Include="Image\Galleryimage\gallery1.jpg" />
     <Content Include="Image\Galleryimage\gallery10.jpg" />
     <Content Include="Image\Galleryimage\gallery11.jpg" />
