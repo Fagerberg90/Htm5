@@ -34,6 +34,7 @@ body {
 @media (max-width: 641px) {
     body {
         background-color: purple;
+        font-family:'Comic Sans MS';
     }
 
     #mobile {
@@ -55,6 +56,7 @@ body {
 
     body {
         background-color: aqua;
+        font-family:Georgia;
     }
 
     #screen {
@@ -81,6 +83,7 @@ body {
 
     body {
         background-color: lawngreen;
+        font-family:Gadugi;
     }
 
     #screen {

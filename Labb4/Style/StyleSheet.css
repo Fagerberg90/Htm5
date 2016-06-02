@@ -87,11 +87,7 @@ h3 {
         text-shadow: 5px 0px 20px #00ffff;
     }
 
-    .navbar-nav {
-        position:fixed;
-        z-index:9000;
-        left:575px;
-    }
+  
 
 
 
