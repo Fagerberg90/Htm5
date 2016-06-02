@@ -44,3 +44,135 @@
 	z-index: 25;
 	box-shadow: 0 13px 19px #3A251D inset;
 }
+#aquariumborder{
+    width:950px;
+    height:500px;
+}
+#diver{
+    position:absolute;
+    width: 10%;
+    height: 10%;
+   animation-name: diver;
+    animation-iteration-count: 14;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+    top: 58%;
+    left:20%;
+    z-index:9000;
+    
+}
+@keyframes diver {
+   0% {
+        transform: translate(0,0);
+    }
+    40%{
+        transform: translate(350px,0);
+    }
+    60%{
+        transform: translate(250px,0) rotateY(180deg);
+    }
+
+    80% {
+        transform: translate(50px,0) rotateY(180deg);
+    }
+    100%{
+        transform: translate(0,0) ;
+    }
+}
+#shark{
+    position:absolute;
+    width: 10%;
+    height: 10%;
+   animation-name: shark;
+    animation-iteration-count: 14;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+    top: 63%;
+    right:30%;
+    z-index:9000;
+    
+}
+@keyframes shark {
+   0% {
+        transform: translate(0,0);
+    }
+    40%{
+        transform: translate(-100px,0);
+    }
+    60%{
+        transform: translate(-50px,0) rotateY(180deg);
+    }
+
+    80% {
+        transform: translate(-50px,0) rotateY(180deg);
+    }
+    100%{
+        transform: translate(0,0) ;
+    }
+}
+#stonefish{
+    position:absolute;
+    width: 10%;
+    height: 10%;
+   animation-name: stonefish;
+    animation-iteration-count: 14;
+    animation-timing-function: ease-in-out;
+    animation-duration: 15s;
+    top: 70%;
+    left:10%;
+    z-index:9000;
+    
+}
+@keyframes stonefish {
+   0% {
+        transform: translate(0,0);
+    }
+    40%{
+        transform: translate(550px,0);
+    }
+    60%{
+        transform: translate(650px,0) rotateY(180deg);
+    }
+
+    80% {
+        transform: translate(50px,0) rotateY(180deg);
+    }
+    100%{
+        transform: translate(0,0) ;
+    }
+}
+#moray{
+    position:absolute;
+    width: 10%;
+    height: 10%;
+   animation-name: moray;
+    animation-iteration-count: 14;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    top: 80%;
+   left:9%;
+    z-index:9000;
+    
+}
+@keyframes moray {
+   0% {
+        transform: translate(0,0);
+    }
+    40%{
+        transform: translate(580px,0);
+    }
+    60%{
+        transform: translate(530px,0) rotateY(180deg);
+    }
+
+    80% {
+        transform: translate(50px,0) rotateY(180deg);
+    }
+    100%{
+        transform: translate(0,0) ;
+    }
+}
+.akvarium{
+    position:center;
+    top:200px;
+}

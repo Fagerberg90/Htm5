@@ -9,9 +9,9 @@
 
     <script src="../scripts/jquery-1.9.1.js"></script>
     <script src="../scripts/bootstrap.js"></script>
-    <script src="../scripts/emoji.js"></script>
+    <script src="../scripts/aquarium.js"></script>
     <link href="../Content/bootstrap.css" rel="stylesheet" />
-
+    <link href="../Style/aquariumstyle.css" rel="stylesheet" />
     <link href="../Style/StyleSheet.css" rel="stylesheet" type="text/css" />
     <link href="../Style/flipcardstyle.css" rel="stylesheet" type="text/css" />
 </head>
@@ -44,19 +44,37 @@
             </nav>
         </div>
     </header>
-   <div class="container">
-       <div class="row">
-           <div class="col-xs-12">
-               <div class="aquariumcont">
-                   <img class="fish" id="moray" src="../Image/aquarium/murray.png" alt="moray picture" />
-                   <img class="fish" id="shark" src="../Image/aquarium/topshark.png" alt="shark picture"/>
-                   <img class="fish" id="diver" src="../Image/aquarium/diver.gif" alt="diver picture"/>
-                   <img class="fish" id="stonefish" src="../Image/aquarium/sfish.png" alt="stonefish picture"/>
-                   <canvas id="aquariumborder" width="950" height="500"></canvas>
-               </div>
-           </div>
-       </div>
-   </div>
+    <div class="container akvarium">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="aquariumcont">
+                    <img class="fish" id="moray" src="../Image/aquarium/murray.png" alt="moray picture" />
+                    <img class="fish" id="shark" src="../Image/aquarium/topshark.png" alt="shark picture" />
+                    <img class="fish" id="diver" src="../Image/aquarium/diver.gif" alt="diver picture" />
+                    <img class="fish" id="stonefish" src="../Image/aquarium/sfish.png" alt="stonefish picture" />
+                    <canvas id="aquariumborder"></canvas>
+                    <div id="wrap">
+                        <div class="window">
+                            <div class="fishtank_wrap">
+                                <div class="fishtank">
+                                    <div class="water">
+                                        <div class="fish_wrap">
+                                            <div class="fish_body">
+                                                <div class="ground"></div>
+                                                <div class="water"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <footer>

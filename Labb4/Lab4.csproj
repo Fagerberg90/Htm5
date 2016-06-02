@@ -147,6 +147,7 @@
     <Content Include="Page\gallery.html" />
     <Content Include="Page\game.html" />
     <Content Include="Page\videos.html" />
+    <Content Include="scripts\aquarium.js" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
     <Content Include="scripts\emoji.js" />
