@@ -4,6 +4,10 @@
 	position:relative;
 	z-index: 20;
 }
+
+.aquariumheader{
+    margin-left:700px;
+}
 .fishtank_wrap{
 	border:1px solid #191919;
 	width:850px;
@@ -171,8 +175,4 @@
     100%{
         transform: translate(0,0) ;
     }
-}
-.akvarium{
-    position:center;
-    top:200px;
 }

@@ -22,55 +22,50 @@ h1 {
 }
 
 .cp {
+     font-family: 'Baskerville Old Face';
     color: floralwhite;
-    font-style: italic;
-    ;
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-    font-size: larger;
+    font-size: 42px;
+    text-shadow: 5px 10px 20px #00ffff;
 }
 
 .nav li a:hover {
     text-shadow: 1px 0px 20px #ff6a00;
 }
 
-.happy {
-    background: rgba(76, 255, 0, 0.53);
-}
 
-.good {
-    background: rgba(254, 255, 45, 0.71);
-}
-
-.sad {
-    background: rgba(255, 0, 0, 0.66);
-}
 
 .box {
-    padding: 20px;
     display: none;
-    margin-top: 18px;
-    border: 2px solid rgba(42, 132, 207, 0.70);
-    height: 30px;
-    position: center;
+    height: 25px;
+    left: 200px;
+    width: 187px;
 }
 
 .happy img {
     width: 35px;
     height: 40px;
-    position: center;
-    margin-right: 30px;
+    float: right;
 }
+
 
 .good img {
     width: 35px;
     height: 40px;
-    position: center;
-    margin-right: 30px;
+    float: right;
 }
+
 
 .sad img {
     width: 35px;
     height: 40px;
-    position: center;
-    margin-right: 30px;
+    float: right;
 }
+
+label
+     {
+    font-family: 'Baskerville Old Face';
+    color: floralwhite;
+    font-size: 22px;
+    text-shadow: 5px 10px 20px #00ffff;
+}
+
