@@ -145,7 +145,6 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="scripts\jquery-1.9.1.intellisense.js" />
-    <Content Include="Page\about.html" />
     <Content Include="Page\contact.html" />
     <Content Include="Page\gallery.html" />
     <Content Include="Page\game.html" />
